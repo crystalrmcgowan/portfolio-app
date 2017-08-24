@@ -1,13 +1,38 @@
 body {
-  background-color: lightblue;
+  background-image: url('http://thewoodygroup.net/wp-content/uploads/2016/01/Web-Design.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5em;
+}
+
+ul {
+  margin: 0px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
   width: 100%;
+  background-color: black;
 }
 
 li {
   list-style-type: none;
   display: inline-block;
-  width: 33%;
   text-align: center;
+  color: white;
+  padding: 1em;
+}
+
+nav {
+  background-color: black;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
 }
 
 p {
@@ -27,4 +52,62 @@ h1 {
 
 a img {
   margin: 2em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 70vh;
+  margin: auto;
+}
+label {
+  color: white;
+  text-align: center;
+  margin: 10px;
+}
+
+input {
+  line-height: 3em;
+}
+
+#submit {
+  background-color: black;
+  color: white;
+  margin-top: 4em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5em;
+}
+
+.referencePage {
+  background-color: black;
+  color: white;
+  margin: auto;
+  width: 50%;
+}
+
+.referenceName {
+  padding-top: 3em;
+}
+
+.deadpool {
+  padding: 2em;
+}
+
+.ironman {
+  padding-bottom: 2em;
+}
+
+.portfolioGrid {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.portfolioGrid a {
+  margin-top: 6em;
+}
+
+.fName {
+  margin-top: 8em;
 }

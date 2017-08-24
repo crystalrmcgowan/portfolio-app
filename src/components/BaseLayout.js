@@ -8,13 +8,29 @@ export default class BaseLayout extends Component {
         <nav>
           <ul>
             <li>
-              <NavLink to="/about">About</NavLink>
+              <NavLink activeClassName="selected" to="/about">
+                About
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/services">Services</NavLink>
+              <NavLink activeClassName="selected" to="/services">
+                Services
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/portfolio">Portfolio</NavLink>
+              <NavLink activeClassName="selected" to="/portfolio">
+                Portfolio
+              </NavLink>
+            </li>
+            <li>
+              <NavLink activeClassName="selected" to="/references">
+                References
+              </NavLink>
+            </li>
+            <li>
+              <NavLink activeClassName="selected" to="/contact">
+                Contact Me
+              </NavLink>
             </li>
           </ul>
         </nav>
